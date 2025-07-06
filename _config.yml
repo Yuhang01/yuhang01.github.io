@@ -238,6 +238,7 @@ defaults:
       type: posts
     values:
       layout: single
+      content_width: wide
       author_profile: false
       read_time: true
       comments: true
@@ -249,6 +250,7 @@ defaults:
       type: pages
     values:
       layout: single
+      content_width: wide
       author_profile: false
   # _teaching
   - scope:
@@ -256,6 +258,7 @@ defaults:
       type: teaching
     values:
       layout: single
+      content_width: wide
       author_profile: false
       share: true
       comments: true
@@ -265,6 +268,7 @@ defaults:
       type: publications
     values:
       layout: single
+      content_width: wide
       author_profile: false
       share: true
       comments: true
@@ -274,6 +278,7 @@ defaults:
       type: portfolio
     values:
       layout: single
+      content_width: wide
       author_profile: false
       share: true
       comment: true
@@ -283,6 +288,7 @@ defaults:
       type: talks
     values:
       layout: talk
+      content_width: wide
       author_profile: false
       share: true
 
